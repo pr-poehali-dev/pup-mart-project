@@ -1,6 +1,6 @@
 const DeliveryInfo = () => {
   return (
-    <section className="py-16 px-4 toy-gradient-bg">
+    <section className="py-16 px-4 bg-gradient-to-br from-red-500 to-red-700">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="heading-font text-4xl md:text-5xl text-white mb-4">

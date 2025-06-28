@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="toy-gradient-bg py-16 px-4 text-center">
+    <section className="bg-gradient-to-br from-red-500 to-red-700 py-16 px-4 text-center">
       <div className="container mx-auto">
         <div className="animate-bounce mb-8">
           <span className="text-6xl">🎪</span>
@@ -15,10 +15,10 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-white text-pink-500 px-8 py-4 rounded-full font-bold text-lg bounce-hover shadow-lg hover:shadow-xl">
+          <button className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg bounce-hover shadow-lg hover:shadow-xl">
             🎁 Открыть сюрприз!
           </button>
-          <button className="bg-pink-500 text-white px-8 py-4 rounded-full font-bold text-lg bounce-hover shadow-lg hover:shadow-xl">
+          <button className="bg-red-600 text-white px-8 py-4 rounded-full font-bold text-lg bounce-hover shadow-lg hover:shadow-xl">
             📦 Посмотреть коллекцию
           </button>
         </div>

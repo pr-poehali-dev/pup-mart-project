@@ -19,7 +19,7 @@ const ProductCard = ({
     return Array.from({ length: 5 }, (_, i) => (
       <span
         key={i}
-        className={`star ${i < rating ? "text-yellow-400" : "text-gray-300"}`}
+        className={`star ${i < rating ? "text-red-500" : "text-gray-300"}`}
       >
         ⭐
       </span>
@@ -38,22 +38,22 @@ const ProductCard = ({
         />
       </div>
 
-      <h3 className="heading-font text-xl text-gray-800 mb-2">{title}</h3>
+      <h3 className="heading-font text-xl text-red-800 mb-2">{title}</h3>
 
       <div className="star-rating mb-3">
         {renderStars(rating)}
-        <span className="ml-2 text-sm text-gray-600">({rating}/5)</span>
+        <span className="ml-2 text-sm text-red-600">({rating}/5)</span>
       </div>
 
       <div className="flex items-center justify-between">
         <span className="text-2xl font-bold text-red-700">{price}</span>
-        <button className="bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition-colors">
+        <button className="bg-red-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-red-700 transition-colors">
           В корзину
         </button>
       </div>
 
       <div className="mt-3 text-center">
-        <button className="text-blue-500 text-sm hover:underline">
+        <button className="text-red-600 text-sm hover:underline">
           📹 Посмотреть распаковку
         </button>
       </div>

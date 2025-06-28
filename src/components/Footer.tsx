@@ -2,15 +2,15 @@ import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-12 px-4">
+    <footer className="bg-red-900 text-white py-12 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-red-400 to-red-600 rounded-full flex items-center justify-center">
                 <span className="text-xl">🎁</span>
               </div>
-              <h3 className="heading-font text-2xl text-pink-400">Пуп Март</h3>
+              <h3 className="heading-font text-2xl text-red-300">Пуп Март</h3>
             </div>
             <p className="text-gray-300 mb-4">
               Мир детских сюрпризов и радости. Создаем незабываемые моменты для
@@ -19,15 +19,15 @@ const Footer = () => {
             <div className="flex space-x-4">
               <Icon
                 name="Instagram"
-                className="w-6 h-6 text-gray-400 hover:text-pink-400 cursor-pointer transition-colors"
+                className="w-6 h-6 text-gray-400 hover:text-red-300 cursor-pointer transition-colors"
               />
               <Icon
                 name="MessageCircle"
-                className="w-6 h-6 text-gray-400 hover:text-pink-400 cursor-pointer transition-colors"
+                className="w-6 h-6 text-gray-400 hover:text-red-300 cursor-pointer transition-colors"
               />
               <Icon
                 name="Youtube"
-                className="w-6 h-6 text-gray-400 hover:text-pink-400 cursor-pointer transition-colors"
+                className="w-6 h-6 text-gray-400 hover:text-red-300 cursor-pointer transition-colors"
               />
             </div>
           </div>
@@ -36,22 +36,22 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Покупателям</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Как заказать
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Доставка и оплата
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Возврат товара
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   FAQ
                 </a>
               </li>
@@ -62,22 +62,22 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Компания</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   О нас
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Новости
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Вакансии
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-pink-400 transition-colors">
+                <a href="#" className="hover:text-red-300 transition-colors">
                   Контакты
                 </a>
               </li>

@@ -6,34 +6,34 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-red-400 to-red-600 rounded-full flex items-center justify-center">
               <span className="text-2xl">🎁</span>
             </div>
-            <h1 className="heading-font text-3xl text-pink-500">Пуп Март</h1>
+            <h1 className="heading-font text-3xl text-red-600">Пуп Март</h1>
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
             <a
               href="#"
-              className="text-gray-700 hover:text-pink-500 font-semibold transition-colors"
+              className="text-gray-700 hover:text-red-600 font-semibold transition-colors"
             >
               Игрушки
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-pink-500 font-semibold transition-colors"
+              className="text-gray-700 hover:text-red-600 font-semibold transition-colors"
             >
               О нас
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-pink-500 font-semibold transition-colors"
+              className="text-gray-700 hover:text-red-600 font-semibold transition-colors"
             >
               Доставка
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-pink-500 font-semibold transition-colors"
+              className="text-gray-700 hover:text-red-600 font-semibold transition-colors"
             >
               Контакты
             </a>
@@ -43,9 +43,9 @@ const Header = () => {
             <div className="relative">
               <Icon
                 name="ShoppingCart"
-                className="w-6 h-6 text-gray-700 hover:text-pink-500 cursor-pointer transition-colors"
+                className="w-6 h-6 text-gray-700 hover:text-red-600 cursor-pointer transition-colors"
               />
-              <span className="absolute -top-2 -right-2 bg-pink-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+              <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 3
               </span>
             </div>
