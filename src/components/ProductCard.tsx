@@ -46,7 +46,7 @@ const ProductCard = ({
       </div>
 
       <div className="flex items-center justify-between">
-        <span className="text-2xl font-bold text-pink-500">{price}</span>
+        <span className="text-2xl font-bold text-red-700">{price}</span>
         <button className="bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition-colors">
           В корзину
         </button>
