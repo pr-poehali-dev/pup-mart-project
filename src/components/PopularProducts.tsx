@@ -59,9 +59,7 @@ const PopularProducts = () => {
           <h2 className="heading-font text-4xl md:text-5xl text-gray-800 mb-4">
             🔥 Популярные Сюрпризы
           </h2>
-          <p className="text-xl text-gray-600">
-            Самые любимые коллекции наших маленьких покупателей!
-          </p>
+          <p className="text-xl text-gray-600">Выбирайте на любой вкус</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
