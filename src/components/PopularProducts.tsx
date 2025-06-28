@@ -6,7 +6,8 @@ const PopularProducts = () => {
       title: "Космические Приключения",
       price: "299₽",
       rating: 5,
-      image: "space-toy.jpg",
+      image:
+        "https://cdn.poehali.dev/files/14eaebcc-286f-43ef-ab3d-c8dc56eea6a5.png",
       emoji: "🚀",
       color: "bg-blue-200",
     },

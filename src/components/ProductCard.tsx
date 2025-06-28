@@ -29,9 +29,13 @@ const ProductCard = ({
   return (
     <div className="toy-card">
       <div
-        className={`w-full h-48 ${color} rounded-xl mb-4 flex items-center justify-center text-6xl`}
+        className={`w-full h-48 ${color} rounded-xl mb-4 flex items-center justify-center overflow-hidden`}
       >
-        {emoji}
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover rounded-xl"
+        />
       </div>
 
       <h3 className="heading-font text-xl text-gray-800 mb-2">{title}</h3>
