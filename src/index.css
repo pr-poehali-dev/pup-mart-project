@@ -94,29 +94,24 @@
     );
   }
 
-  .bounce-hover {
-    transition: transform 0.3s ease;
-  }
-
-  .bounce-hover:hover {
-    transform: translateY(-5px) scale(1.05);
-  }
-
+  /* Toy store specific styles */
   .toy-card {
-    @apply bg-white rounded-2xl shadow-lg p-6 bounce-hover border-4 border-transparent;
-    transition: all 0.3s ease;
+    @apply bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border-4 border-red-200 hover:border-red-300 transform hover:-translate-y-2;
   }
 
-  .toy-card:hover {
-    border-color: hsl(var(--toy-pink));
-    box-shadow: 0 20px 40px rgba(255, 107, 157, 0.3);
-  }
-
-  .star-rating {
-    @apply flex gap-1;
+  .bounce-hover {
+    @apply transition-transform duration-200 hover:scale-105;
   }
 
   .star {
-    @apply text-yellow-400 text-lg;
+    @apply text-lg;
+  }
+
+  .star-rating {
+    @apply flex items-center;
+  }
+
+  .heading-font {
+    @apply font-bold;
   }
 }
