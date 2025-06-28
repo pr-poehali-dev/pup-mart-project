@@ -6,7 +6,7 @@ const Hero = () => {
           <span className="text-6xl">🎪</span>
         </div>
 
-        <h1 className="heading-font text-5xl md:text-7xl mb-6 drop-shadow-lg text-center text-red-600 mx-0">
+        <h1 className="heading-font text-5xl md:text-7xl mb-6 drop-shadow-lg text-center mx-0 text-[#ffffff]">
           Добро пожаловать в Пуп Март
         </h1>
 
